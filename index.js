@@ -23,4 +23,7 @@ function decrement() {
 
 function save() {
     saveEl.innerText += " " + count + " - "
+    
+    count = 0
+    countEl.innerText = count
 }
