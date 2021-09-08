@@ -12,7 +12,7 @@ function increment() {
    
 }
 
-// funtion to decrement; incase someone entered and decided to illight again before the subway starts moving
+// funtion to decrement; incase someone entered and decided to illight again before the subway moves
 function decrement() {
     count = count - 1
 
@@ -20,6 +20,7 @@ function decrement() {
         countEl.textContent = count
     } else{
         count = 0
+        countEl.textContent = count
     }
 }
 
